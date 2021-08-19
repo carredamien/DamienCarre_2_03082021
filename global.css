@@ -1,14 +1,14 @@
 /* Fonts */
 @font-face {
   font-family: "Raleway";
-  src: url("./fonts/Raleway-Regular.ttf");
+  src: url("./fonts/Raleway-Regular.ttf") format("truetype");
   font-weight: 400;
 }
 
 @font-face {
   font-family: "Raleway-bold";
-  src: url("./fonts/Raleway-Bold.ttf") format("ttf");
-  font-weight: 700;
+  src: url("./fonts/Raleway-Bold.ttf") format("truetype");
+  font-weight: 800;
 }
 
 /* général */
