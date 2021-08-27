@@ -22,7 +22,8 @@ footer {
   padding: 0.5rem 0;
   font-size: 1.6rem;
   cursor: pointer;
-  transition: transform 0.3s ease-in;
+  transform: scale(1);
+  transition: transform 0.1s ease-in;
 }
 
 .footer ul li a {
