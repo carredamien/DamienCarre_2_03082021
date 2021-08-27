@@ -65,6 +65,7 @@ button i {
   border: none;
   text-transform: capitalize;
   font-weight: bold;
+  cursor:pointer;
 }
 
 .search:focus {

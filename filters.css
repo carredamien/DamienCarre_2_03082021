@@ -26,6 +26,7 @@
   border-radius: 3rem;
   margin: 1rem 1rem 1rem 2rem;
   transition: border 0.8s ease-out;
+  cursor: pointer;
 }
 
 .button--filters:hover {
@@ -61,19 +62,19 @@
 }
 
 .info {
-  display: flex;
-  align-items: flex-start;
+  display: block;
+  /* align-items: flex-start; */
   margin: 0 0 0 2rem;
 }
 
 .button-info {
   display: inline-block;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  /* display: flex; */
+  /* align-items: center;
+  justify-content: center; */
   height: 3rem;
   width: 3rem;
-  margin: 1.2rem 1rem 0 0;
+  margin: 1.2rem 0.5rem 0 0;
   border: 1.5px solid #DEEBFF;
   color: #0065FC;
   border-radius: 50%;
@@ -83,6 +84,7 @@
 .info p {
   font-size: 1.6rem;
   margin: 2rem 0 0 0;
+  word-wrap: break-word;
 }
 
 /* desktop */

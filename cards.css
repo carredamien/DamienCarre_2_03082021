@@ -47,7 +47,7 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  max-width: 35rem;
+  /* max-width: 35rem; */
 }
 
 .container--card {
@@ -73,7 +73,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 1rem 0;
+  margin: 1rem;
   padding: 0.7rem;
   width: 95%;
   max-width: 35rem;
@@ -300,6 +300,9 @@
   .cards--activity {
     background: #f2f2f2;
   }
+  /* .wrapper--card{
+
+  } */
 }
 
 @media screen and (min-width:990px) {
