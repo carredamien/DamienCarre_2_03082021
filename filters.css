@@ -68,10 +68,10 @@
 }
 
 .button-info {
-  display: inline-block;
-  /* display: flex; */
-  /* align-items: center;
-  justify-content: center; */
+  float:none;
+  display: flex; 
+  align-items: center;
+  justify-content: center;
   height: 3rem;
   width: 3rem;
   margin: 1.2rem 0.5rem 0 0;
@@ -82,9 +82,20 @@
 }
 
 .info p {
+  float:none;
   font-size: 1.6rem;
   margin: 2rem 0 0 0;
   word-wrap: break-word;
+}
+
+/*tablet*/
+@media screen and (min-width:768px) {
+  .button-info{
+    float: left;
+  }
+  .info p{
+    float:left
+  }
 }
 
 /* desktop */
