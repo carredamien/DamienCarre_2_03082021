@@ -300,10 +300,7 @@
   .cards--activity {
     background: #f2f2f2;
   }
-  /* .wrapper--card{
 
-  } */
-}
 
 @media screen and (min-width:990px) {
 
@@ -317,6 +314,7 @@
     justify-items: center;
     margin: 8rem 3rem;
   }
+ 
 
   .icon--h2 {
     position: absolute;
